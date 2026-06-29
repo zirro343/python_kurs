@@ -42,3 +42,18 @@ else:
 values = [1, 2, 3, 4]
 if 3 in values:
     print("die 3 ist in values enthalten")
+
+# Is-Operator (vor allem Zum Prüfen, ob ein Wert None ist)
+x = None 
+if x is None:
+    print("x ist None")
+
+
+def check(value):
+    if value < 3:
+        return 42
+    
+    return None
+
+if check(44) is None:
+    print("check is None")
