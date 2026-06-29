@@ -12,6 +12,13 @@
 - 12:30 - 13:30
 
 ## Github Repo
+- https://github.com/zirro343/python_kurs 
  
- 
-Pause bis 13:20
+
+## Morgen (Dienstag)
+- Datentyp dict
+- Funktionen, Parameter, keyword arguments
+- lambda Funktionen
+- Sortieren von Dicitonaries und LIsten
+- Öffnen von Dateien, lesen, schreiben, Pfade 
+- eigene Module schreiben
