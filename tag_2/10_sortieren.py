@@ -39,3 +39,9 @@ snacks = {
     2: {"name": "Milka", "price": 400, "amount": 20, "pos": {"x": 30}},
     3: {"name": "Snickers", "price": 100, "amount": 10, "pos": {"x": 50}},
 }
+
+sn_a = sorted(snacks.items(), key=lambda x: x[1]["price"])
+print(sn_a)
+
+# mit max geht es auch
+print(max("aaf3", "bla4", "asdf9", key=lambda e: e[-1]))

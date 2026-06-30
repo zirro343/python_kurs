@@ -55,8 +55,14 @@ address_list = [
     ),
 ]
 
+keys = ("salutation", "first_name", "last_name", "street", "city",),
+       ("Ms", "Galadriel", "Elb", "189 Flower Gardens", "Lothlorien",),
 
-def get_dict(address_list): ...
+def get_dict(address_list):
+    keys = address_list[0]
+    out = {}
+    for entry in address_list[1:]:
+        out[entry[1]] = dict(zip(keys, entry))
 
 
 # das muss funktionieren (wenn fertig, einkommentieren)
