@@ -51,7 +51,7 @@ if x is None:
 
 def check(value):
     if value < 3:
-        return 42
+        return 0
     
     return None
 
