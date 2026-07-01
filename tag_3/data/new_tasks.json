@@ -1,0 +1,17 @@
+[
+  {
+    "title": "users prüfen",
+    "status": "closed",
+    "priority": "high"
+  },
+  {
+    "title": "logs checken",
+    "status": "in_progress",
+    "priority": "medium"
+  },
+  {
+    "title": "backup durchführen",
+    "status": "scheduled",
+    "priority": "high"
+  }
+]

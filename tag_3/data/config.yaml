@@ -1,0 +1,7 @@
+app:
+  name: MyApp
+  version: 1.0
+database:
+  host: Postgres
+  port: 6531
+debug: true

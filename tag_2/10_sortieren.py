@@ -17,9 +17,15 @@ sorted_chars = sorted(chars, key=lambda el: el.lower())
 sorted_chars = sorted(chars, key=str.lower)
 print("Sorted chars:", sorted_chars)
 
+
+def last_element(el):
+    return el[-1]
+
+
 # AUFGABE (es soll nach dem letzten Zeichen sortiert werden)
 ids = ["id5", "idx1", "id2", "idy5", "id4", "id3"]
 ids_sorted = sorted(ids, key=lambda x: x[-1])
+ids_sorted = sorted(ids, key=last_element)
 print(ids_sorted)
 
 # Snacks (Aufsteigend nach Preis)

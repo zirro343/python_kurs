@@ -13,3 +13,7 @@ print(s(3, 2), type(s))
 
 def summe(a, b):
     return a + b
+
+
+summe
+summe(2, 4)

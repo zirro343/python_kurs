@@ -6,7 +6,7 @@ Beim Umwandlung von einer liste in ein Set geht die Reihenfolge verloren!
 
 cities = ["Hamburg", "Hamburg", "Berlin"]
 
-# klassisch
+# klassisch (Eindedutige Städte bestimmen)
 unique_cities = []
 for city in cities:
     if city not in unique_cities:

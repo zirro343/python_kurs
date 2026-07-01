@@ -1,6 +1,7 @@
 """
 Ein Dict iterativ aufbauen
 """
+
 # Word-Counter (Frequenzanalyse) wc
 sentence = "the quick brown fox jumps over the lazy dog dog fox"
 wc = {}
@@ -26,6 +27,6 @@ print(wc)
 for key in wc:
     print("=>", key, wc[key])
 
-print(list(wc.items()))
+print(list(wc.items()))  # [('the', 2), ('quick', 1), ('brown', 1),]
 for key, value in wc.items():
     print("=>", key, wc[key])

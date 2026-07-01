@@ -1,6 +1,7 @@
 """
 Dict: veränderlicher Datentyp
 """
+
 # Beispiel: Deutsch-Englisch-Wörterbuch
 de_en = {
     "Katze": "cat",
@@ -23,19 +24,20 @@ else:
 
 #######################################################
 population = {
-    'Berlin': 3_748_148,
-    'Hamburg': 1_822_445,
-    'München': 1_471_508,
-    'Cologne': 1_085_664,
-    'Frankfurt': 753_056
+    "Berlin": 3_748_148,
+    "Hamburg": 1_822_445,
+    "München": 1_471_508,
+    "Cologne": 1_085_664,
+    "Frankfurt": 753_056,
 }
 population["Hamburg"] = 2
+population["Fürth"] = 42
 print(population)
 
 extra_populations = {
     "Nürnberg": 500_000,
     "Landsberg": 80_000,
-    'Frankfurt': 42,
+    "Frankfurt": 42,
 }
 
 # zwei Dicts zusammenführen
@@ -44,4 +46,4 @@ print(population)
 
 # oder
 new_populations = population | {"New York": 1}
-print(new_populations )
+print(new_populations)

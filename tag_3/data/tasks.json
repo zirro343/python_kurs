@@ -1,0 +1,23 @@
+{
+  "system": "admin_tasks",
+  "admin": {
+    "name": "admin1",
+    "tasks": [
+      {
+        "title": "users prüfen",
+        "status": "open",
+        "priority": "high"
+      },
+      {
+        "title": "logs checken",
+        "status": "in_progress",
+        "priority": "medium"
+      },
+      {
+        "title": "backup durchführen",
+        "status": "scheduled",
+        "priority": "high"
+      }
+    ]
+  }
+}
