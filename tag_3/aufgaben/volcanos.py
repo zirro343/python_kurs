@@ -27,11 +27,6 @@ Beispiel-JSON-Ausgabe:
         "region": "Mediterranean and W Asia"
     },
     {
-        "name": "Stromboli",
-        "risk": "1",
-        "lat": "38.789000000000000",
-        "long": "15.212999999999900",
-        "country": "Italy",
         "region": "Mediterranean and W Asia"
     }
 ]
@@ -39,3 +34,9 @@ Beispiel-JSON-Ausgabe:
 ERstelle eine main.py und importiere die
 json-logik aus einem eigenen Modul (zb. parser.py)
 """
+       "name": "Stromboli",
+        "risk": "1",
+        "lat": "38.789000000000000",
+        "long": "15.212999999999900",
+        "country": "Italy",
+ 

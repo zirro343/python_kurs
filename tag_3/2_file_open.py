@@ -24,8 +24,14 @@ with open(DATA_DIR / "cities.txt", mode="r", encoding="utf-8") as f:
     content = f.read()
     print(content)
 
-
+print("*" * 40)
 # Zeilen-Iterator (iterativ über Datei streamen)
 with open(DATA_DIR / "cities.txt", mode="r", encoding="utf-8") as f:
     for line in f:
         print("=>", line, end="")
+    print("*" * 40)
+
+    for line in f:
+        print("=>", line, end="")
+
+    print("*" * 40)
